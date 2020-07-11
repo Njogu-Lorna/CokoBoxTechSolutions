@@ -133,7 +133,6 @@ blockquote {
 }
 a.text-tag:link {
   border: 1px solid #e5e5e5;
-  display: inline-block;
   float: left;
   font-size: 0.75rem;
   margin: 1px 2px 1px 0;
@@ -490,10 +489,10 @@ aside.aside-left {
   background-color: #fff !important;
 }
 .background-primary, .primary-color-primary .background-primary {
-  background-color: rgb(0,0,0); !important;
+  background-color: rgb(0,0,0) !important;
 }
 .background-dark, .primary-color-dark .background-primary {
-  background-color: rgb(192,192,192); !important; 
+  background-color: rgb(192,192,192) !important;
 }
 /* Background Opacity */
 .background-white.background-transparent, .primary-color-white .background-primary.background-transparent {
@@ -1239,7 +1238,6 @@ p.form-success {
     }
     .nav-text {
       color: #fff;
-      display: block;
       font-size: 1.2rem;
       line-height: 3rem;
       margin-right: 0.625rem;
@@ -2122,7 +2120,7 @@ video {
  .marquee {
  
     white-space: nowrap;
-    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation-: 4s linear;
 }
 .edit{
   max-height: 50%;

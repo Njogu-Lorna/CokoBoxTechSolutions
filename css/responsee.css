@@ -717,7 +717,6 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     margin-right:0.625rem;
     max-width:100%;
     text-align:center;
-    vertical-align:middle;
   }
   .nav-text:after {
     content:"\f008";
@@ -822,7 +821,6 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     max-width:100%;
     padding-right:0.625rem;
     text-align:center;
-    vertical-align:middle;
   }
   .aside-nav-text:after {
     content:"\f008";
